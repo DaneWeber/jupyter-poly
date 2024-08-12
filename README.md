@@ -13,4 +13,7 @@ cat ~/.gitconfig
 
 # verify ssh connection to GitHub
 ssh -vT git@github.com
+
+# See if kernel is registered
+ls /home/codespace/.local/share/jupyter/kernels/
 ```

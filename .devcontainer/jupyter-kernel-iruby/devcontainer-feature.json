@@ -1,0 +1,9 @@
+{
+  "id": "iruby",
+  "version": "0.0.1",
+  "name": "iRuby kernel",
+  "documentationURL": "",
+  "description": "iRuby kernel for Jupyter notebooks",
+  "options": {},
+  "installsAfter": []
+}

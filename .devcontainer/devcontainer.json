@@ -6,18 +6,22 @@
 	"image": "mcr.microsoft.com/devcontainers/universal:2-linux",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+	"features": {
+		"./jupyter-kernel-iruby": {}
+	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "git config --global --add safe.directory /workspaces/*",
+	"postCreateCommand": "git config --global --add safe.directory /workspaces/* && iruby register --force",
 
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
 			"extensions": [
+				"ms-toolsai.jupyter",
+				"Shopify.ruby-lsp",
 				"ms-python.python"
 			]
 		}
