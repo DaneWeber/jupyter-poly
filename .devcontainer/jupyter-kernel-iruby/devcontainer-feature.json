@@ -1,6 +1,6 @@
 {
-  "id": "iruby",
-  "version": "0.0.1",
+  "id": "jupyter-kernel-iruby",
+  "version": "0.0.2",
   "name": "iRuby kernel",
   "documentationURL": "",
   "description": "iRuby kernel for Jupyter notebooks",
